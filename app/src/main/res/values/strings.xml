@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Plus Jamais A Découvert</string>
+    <string name="Continuer">Continuer</string>
+    <string name="Bienvenue">Bienvenue sur votre application Plus Jamais A Découvert !</string>
+    <string name="Quitter">Quitter</string>
+    <string name="Retour">Retour</string>
+    <string name="Controler">Controler mon budget</string>
+    <string name="Historique">Historique</string>
+    <string name="Ajouter">Ajouter un achat</string>
+    <string name="Description">Description : </string>
+    <string name="AjoutDescription">Ajouter une description</string>
+    <string name="Prix">Prix : </string>
+    <string name="AjoutPrix">Ajouter un prix </string>
+    <string name="Quantité">Quantité : </string>
+    <string name="AjoutQuantité">Ajouter une quantité</string>
+    <string name="Domaine">Domaine : </string>
+    <string name="AjoutDomaine">Ajouter un domaine</string>
+    <string name="Total">Total : </string>
+    <string name="Solde">Solde : </string>
+</resources>
