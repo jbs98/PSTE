@@ -32,7 +32,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/AjoutDescription"/>
+            android:hint="@string/AjoutDescription"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/AjoutPrix"/>
+            android:hint="@string/AjoutPrix"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/AjoutQuantité"/>
+            android:hint="@string/AjoutQuantité"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/AjoutDomaine"/>
+            android:hint="@string/AjoutDomaine"/>
 
         <TextView
             android:layout_width="wrap_content"
