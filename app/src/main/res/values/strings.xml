@@ -17,4 +17,13 @@
     <string name="AjoutDomaine">Ajouter un domaine</string>
     <string name="Total">Total : </string>
     <string name="Solde">Solde : </string>
+    <string name="Save">Sauvegarder</string>
+    <string name="Modif">Modifier</string>
+    <string name="Nom">Nom : </string>
+    <string name="Prénom">Prénom : </string>
+    <string name="Budget">Votre budget mensuel est de : </string>
+    <string name="euro">Euros</string>
+    <string name="AjoutNom">Ajouter votre nom : </string>
+    <string name="AjoutPrenom">Ajouter votre Prénom : </string>
+    <string name="AjouterBudget">Ajouter votre Budget : </string>
 </resources>

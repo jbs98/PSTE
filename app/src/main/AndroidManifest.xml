@@ -20,7 +20,8 @@
         <activity android:name=".ControlerBudget" />
         <activity android:name=".AjouterUnAchat" />
         <activity android:name=".Historique" />
-        <activity android:name=".registration"></activity>
+        <activity android:name=".registration" />
+        <activity android:name=".ModifierParametre"></activity>
     </application>
 
 </manifest>

@@ -5,10 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class registration extends AppCompatActivity {
 
     private Button mRetour;
+    private Button mModif;
+    private EditText mNom;
+    private EditText mPrenom;
+    private EditText mBudget;
 
 
     @Override
@@ -17,6 +22,8 @@ public class registration extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
 
         mRetour = (Button) findViewById(R.id.retour_button);
+        mModif = (Button) findViewById(R.id.modifier_button);
+
 
         mRetour.setOnClickListener(new View.OnClickListener() {
             @Override

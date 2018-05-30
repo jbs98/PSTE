@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="left"
     tools:context=".registration">
 
 
@@ -17,15 +18,45 @@
         android:layout_gravity="left"
         android:text="@string/Retour" />
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"/>
+
     <TextView
+        android:id="@+id/nom_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sauvegarde"
-        android:textSize="20sp"
-        android:layout_marginTop="81dp"
-        />
+        android:text="@string/Nom"
+        android:layout_gravity="left"
+        android:textSize="20sp"/>
 
-    />
+    <TextView
+        android:id="@+id/prenom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Prénom"
+        android:layout_gravity="left"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/budget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Budget"
+        android:layout_gravity="left"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/modifier_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Modif" />
+
+
+
+
 
 </LinearLayout>
 
