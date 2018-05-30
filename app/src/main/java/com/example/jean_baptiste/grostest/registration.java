@@ -11,9 +11,6 @@ public class registration extends AppCompatActivity {
 
     private Button mRetour;
     private Button mModif;
-    private EditText mNom;
-    private EditText mPrenom;
-    private EditText mBudget;
 
 
     @Override
@@ -32,6 +29,16 @@ public class registration extends AppCompatActivity {
                 startActivity(Retour);
             }
         });
+
+        mModif.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Modifier = new Intent(registration.this, ModifierParametre.class);
+                startActivity(Modifier);
+            }
+        });
+
+
 
 
     }
