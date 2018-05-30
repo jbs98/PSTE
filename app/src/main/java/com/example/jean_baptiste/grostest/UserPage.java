@@ -12,6 +12,7 @@ public class UserPage extends AppCompatActivity {
     private Button mControler;
     private Button mAjouter;
     private Button mHistorique;
+    private Button mParametre;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,15 @@ public class UserPage extends AppCompatActivity {
         mControler = (Button) findViewById(R.id.controler_button);
         mAjouter = (Button) findViewById(R.id.ajouterachat_button);
         mHistorique = (Button) findViewById(R.id.historique_button);
+        mParametre = (Button) findViewById(R.id.parametre_button);
+
+        mParametre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Registration = new Intent(UserPage.this, registration.class );
+                startActivity(Registration);
+            }
+        });
 
         mRetour.setOnClickListener(new View.OnClickListener() {
             @Override
